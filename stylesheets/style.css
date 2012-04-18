@@ -3,6 +3,8 @@ body  {
 	padding: 0;
 	line-height: 1.75em;
 	font: normal 14px/20px "helvetica neue","helvetica", "arial", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  
 }
 
 ol,ul {
@@ -35,7 +37,7 @@ a {text-decoration: none;}
 	color: #222;
 	margin: 230px 0 0 50px;
 	width: 340px;
-	background: rgba(180, 179, 179, 0.8);
+	background: rgba(220, 220, 220, 0.9);
 	padding: 2px 10px;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -53,5 +55,6 @@ a {text-decoration: none;}
 
 @media screen and (max-device-width: 480px) {
 	body {
-		font: normal 18px/24px "helvetica neue","helvetica", "arial", sans-serif;
+		font: normal 18px/24px "Helvetica Neue", helvetica, arial, serif;
+    -webkit-font-smoothing: antialiased;
 }
